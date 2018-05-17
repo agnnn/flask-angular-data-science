@@ -7,7 +7,7 @@ Read the corresponding Medium article [here](https://medium.com/@dvelsner/deploy
 
 First fork or clone this repo:
 
-e.g. `git clone https://github.com/delsner/flask-angular-data-science.git`
+e.g. `git clone https://github.com/chmstimoteo/flask-angular-data-science.git`
  
 
 ## Build images and run containers with docker-compose
