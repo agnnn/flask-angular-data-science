@@ -5,7 +5,7 @@ RUN apt-get update \
     python3 \
     python3-pip \
     && pip3 install --upgrade pip \
-    && pip3 install setuptools
+    && pip install setuptools
 
 # for flask web server
 EXPOSE 8081
