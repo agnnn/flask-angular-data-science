@@ -15,6 +15,7 @@ EXPOSE 8081
 # set working directory
 ADD . /app
 WORKDIR /app
+COPY . /app
 
 # install required libraries
 RUN pip3 install -r requirements.txt

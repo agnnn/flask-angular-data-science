@@ -16,8 +16,18 @@ After cloning the repository go inside the project folder:
 
 `cd flask-angular-data-science`
 
-Run `docker-compose up` which will start a Flask web application for the backend API (default port `8081`) and an Angular frontend served through a webpack development web server (default port `4200`).
+Run `make install` which will start a Flask web application for the backend API (default port `8081`) and an Angular frontend served through a webpack development web server (default port `4200`).
 
+## Build images and run containers separetely using a custom virtual private network
+
+After cloning the repository go inside the project folder:
+
+`cd flask-angular-data-science`
+
+Run `make install-backend` which will build the Flask backend web application image container.
+Run `make install-frontend` which will build the Angular frontend served through a webpack development web server.
+Run `make run-backend` which will start the Flask web application for the backend API (default port `8081`).
+Run `make run-frontend` which will start an Angular frontend served through a webpack development web server (default port `4200`).
 
 ## Access your app
 
