@@ -1,5 +1,9 @@
 FROM node:8
 
+RUN apt-get update \
+    && apt-get install -yq --no-install-recommends \
+    inetutils-ping
+
 # set up angular cli
 RUN yarn global add @angular/cli@1.2.6
 

@@ -7,6 +7,8 @@ RUN apt-get update \
     && pip3 install --upgrade pip \
     && pip install setuptools
 
+RUN apt-get install -yq --no-install-recommends inetutils-ping
+
 # for flask web server
 EXPOSE 8081
 
